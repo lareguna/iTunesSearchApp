@@ -13,6 +13,7 @@
 		89E8BEEA1A244DF7009D8AB9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89E8BEE91A244DF7009D8AB9 /* Images.xcassets */; };
 		89E8BEED1A244DF7009D8AB9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89E8BEEB1A244DF7009D8AB9 /* LaunchScreen.xib */; };
 		89E8BEF91A244DF7009D8AB9 /* iTunesSearchAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E8BEF81A244DF7009D8AB9 /* iTunesSearchAppTests.swift */; };
+		89E8BF031A24657E009D8AB9 /* APIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E8BF021A24657E009D8AB9 /* APIController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		89E8BEF21A244DF7009D8AB9 /* iTunesSearchAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iTunesSearchAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		89E8BEF71A244DF7009D8AB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		89E8BEF81A244DF7009D8AB9 /* iTunesSearchAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTunesSearchAppTests.swift; sourceTree = "<group>"; };
+		89E8BF021A24657E009D8AB9 /* APIController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				89E8BEE21A244DF7009D8AB9 /* AppDelegate.swift */,
 				89E8BEE41A244DF7009D8AB9 /* ViewController.swift */,
 				89E8BEE61A244DF7009D8AB9 /* Main.storyboard */,
+				89E8BF021A24657E009D8AB9 /* APIController.swift */,
 				89E8BEE91A244DF7009D8AB9 /* Images.xcassets */,
 				89E8BEEB1A244DF7009D8AB9 /* LaunchScreen.xib */,
 				89E8BEE01A244DF7009D8AB9 /* Supporting Files */,
@@ -214,6 +217,7 @@
 			files = (
 				89E8BEE51A244DF7009D8AB9 /* ViewController.swift in Sources */,
 				89E8BEE31A244DF7009D8AB9 /* AppDelegate.swift in Sources */,
+				89E8BF031A24657E009D8AB9 /* APIController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
